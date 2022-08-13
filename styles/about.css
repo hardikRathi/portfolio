@@ -1,0 +1,100 @@
+.outer{
+    background: linear-gradient(to bottom, #00ffcc 0%, #0066ff 100%);
+    width: 100%;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+}
+
+.section-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.section-1 .aboutMe{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-1 .heading{
+    font-size: larger;
+    border-bottom: 3px solid black;
+    margin-bottom: 35px;
+}
+
+.s1-left{
+    padding: 0px 60px;
+}
+
+.s1-left img{
+    width: 375px;
+}
+
+.s1-right{
+    width: 40%;
+}
+
+.s1-right p{
+    font-size: 20px;
+    color: white;
+    font-weight: 500;
+}
+
+.section-2{
+    background-color: black;
+    color: grey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.s2-left .heading2{
+    color: white;
+    text-align: center;
+    padding: 30px;
+    font-size: 20px;
+}
+
+.section-2 .spanwhite{
+    color: white;
+}
+
+.section-2 .spancolor1{
+    color: #0066ff;
+}
+
+.section-2 .spancolor2{
+    color: #ff9900;
+}
+
+.section-2 .spancolor3{
+    color: #00ff2f;
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+.s2-card{
+    width: 300px;
+    height: 100px;
+    padding: 25px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    border: 3px solid grey;
+    border-radius: 20px;
+    margin: 50px 76px;
+}
+
+.s2-card p{
+    font-size: 18px;
+}
+
